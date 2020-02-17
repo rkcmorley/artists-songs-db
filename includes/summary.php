@@ -5,6 +5,7 @@ $sql = "SELECT COUNT(*)
         COUNT(DISTINCT artist_id) 
         AS artists
         FROM song";
+
 $result = mysqli_query($link, $sql);
 
 if ($result === false) {
@@ -12,4 +13,4 @@ if ($result === false) {
 }
 
 $row = mysqli_fetch_assoc($result);
-echo '<p>Number of active artists: </p> '. htmlentities($row['artists']) . '<br>' .'<p>Number of songs: </p>'. htmlentities($row['songs']) . '<br class="breakpoint">';
+echo '<p>Number of active artists: </p> '. htmlentities($row['artists']) . '<br>' .'<p>Number of songs: </p>'. htmlentities($row['songs']) . '<br>';

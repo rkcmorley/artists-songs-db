@@ -2,7 +2,6 @@
 require_once 'includes/openSQL.php';
 
 $page_title = "Songs";
-$page_headerOne = "W1 Music";
 $page_headerTwo = "Songs";
 
 require_once 'includes/header.php';

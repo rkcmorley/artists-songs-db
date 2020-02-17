@@ -27,6 +27,3 @@ CREATE TABLE `song` (
 -- Dumping data for table `song`
 --
 INSERT INTO `song` VALUES (1,'Fernando',7,257),(2,'Hound Dog',3,136),(3,'White Christmas',1,186),(4,'I Want to Hold Your Hand',4,148),(5,'Waterloo',7,169),(6,'Rock Around the Clock',2,134),(7,'Blue Suede Shoes',3,118),(8,'She Loves You',4,142),(9,'Bohemian Rhapsody',5,356),(10,'Are You Lonesome Tonight?',3,189),(11,'Hey Jude',4,431),(12,'Another One Bites the Dust',5,216);
-
-select * artist;
-select song;
