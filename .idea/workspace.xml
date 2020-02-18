@@ -2,17 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1a92cea-ff38-4956-bb26-c04d8debf763" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/closeSQL.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/closeSQL.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/openSQL.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/openSQL.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/summary.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/summary.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/404.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/artists.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/artists.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/songs.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/songs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/w1tma_tables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/install/w1tma_tables.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +100,8 @@
       <workItem from="1581688785730" duration="9448000" />
       <workItem from="1581782292812" duration="8316000" />
       <workItem from="1581873281705" duration="57000" />
-      <workItem from="1581873385977" duration="6585000" />
+      <workItem from="1581873385977" duration="18158000" />
+      <workItem from="1582033609304" duration="392000" />
     </task>
     <servers />
   </component>
@@ -109,5 +113,9 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="517" y="369" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1581873394995" />
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1581965345466">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1581965345466" />
   </component>
 </project>

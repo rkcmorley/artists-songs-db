@@ -1,5 +1,11 @@
 <?php
-
+/*
+ * From the database, this will count each song and distinct artist ID from the song table.
+ *
+ * If it fails to get the result, it will show an error message.
+ *
+ * If it's successful in getting the result, it will render the data in a while loop.
+ */
 $sql = "SELECT COUNT(*) 
         AS songs,
         COUNT(DISTINCT artist_id) 

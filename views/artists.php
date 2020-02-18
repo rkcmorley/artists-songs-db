@@ -1,4 +1,18 @@
 <?php
+/*
+ * This will open the database through the openSQL.php.
+ * It will then render the artists' page title and header two.
+ *
+ * From the database, it will create the summary and select distinct artist and count each song
+ * that's related to the artist's ID. It will join the artist and song tables through the artist's ID.
+ *
+ * It will check on whether the database is connected or not.
+ * If it fails to connect, it will show an error message otherwise it will render each of the
+ * artist's name and the number of songs related to the artist through a while loop.
+ *
+ * After loading what it needs from the database, it will then close it.
+ */
+
 require_once 'includes/openSQL.php';
 
 $page_title = "Artists";

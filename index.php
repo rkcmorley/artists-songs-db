@@ -1,10 +1,19 @@
 <?php
+/*
+ * This will open the database through its credentials with the config.php.
+ *
+ * It will then check on what page it's at, by default, it should be at the home page.
+ *
+ * This will also render all the links that the user can choose.
+ *
+ * It will also render the footer of each page.
+ */
 require_once 'includes/config.php';
 
 if (!isset($_GET['page'])) {
-    $id = 'home'; // display home page
+    $id = 'home';
 } else {
-    $id = $_GET['page']; // else requested page
+    $id = $_GET['page'];
 }
 
 switch ($id) {
